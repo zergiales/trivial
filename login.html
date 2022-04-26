@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>jugar</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- estilos -->
+    <link rel="stylesheet" href="assets/css/style-login.css" />
+    
+    </head>
+  <body>
+    <div class="container-Titulo" >
+        <div class="doradoV">
+                  <div class="cajaVerde">T</div>
+        </div>
+         
+        <div class="doradoVi">
+                  <div class="cajaFucsia">R</div>
+        </div>
+        <div class="doradoA">
+                  <div class="cajaAzul">I</div>
+        </div>
+        <div class="doradoN">
+                  <div class="cajaNaranja">V</div>
+        </div>                 
+        <div class="doradoAC">
+                  <div class="cajaAzulCurioso">I</div>
+        </div> 
+        <div class="doradoR">
+                  <div class="cajaRoja">A</div>
+        </div> 
+         <div class="doradoB">
+          <div class="cajaB">L</div>
+        </div> 
+    </div>
+    <!--formulario donde le pediremos al usuario que ingrese su nombre susuario -->
+    <div class="container">
+      <form action="Jugar.php" method="post">
+        <label for="usuario">Nombre de usuario</label>
+        <input type="text" name="usuario"  id="usuario" minlength="1" maxlength="15"/>
+        <button type="submit"onclick="return fcomprobar()">COMENZAR</button>
+      <!--boton para volver a la página de inicio--> 
+        <button type="button"  onclick="window.location='index.php'" >VOLVER</button>
+    </form>
+    </div>
+      <script>
+        //funcion de javaScript que  lo que haces es que si no metes un usuario no te deja empezar el juego  
+            function fcomprobar(){
+                if (document.getElementById("usuario").value == "") {
+                 alert("inserte un usuario");
+                 return false;   
+                }
+            }
+        </script>
+  </body>
+</html>

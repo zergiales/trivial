@@ -1,0 +1,269 @@
+ body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: apple;
+    color:#fff;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+     background-attachment: fixed;
+}
+@font-face {
+    /* Con esto digo que cuando ponga font family apple me salga la letra que tengo descargada */
+    font-family: apple;
+    src: url(../Fuentes/SF-UI-Display-Regular.otf);
+}
+                *{
+                    transition: 0.5s;
+                }
+  
+.container-Titulo{
+    display: flex;
+    align-items: center;
+    font-size: 29PX; 
+     transition: 0.5s;
+}
+.doradoV{
+    background-color: #C19A3F;
+    border: 2px solid #fff;
+    width:60px;
+    height:60px;
+    transform: rotate(-10deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;               
+}
+                
+.cajaVerde{
+                    width: 45px;
+                    height: 45px;
+                    background-color: #85BB35;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2PX solid #fff;
+                    transform:rotate(19deg);
+                }
+
+                .doradoVi{
+                    margin: 10px;
+                    background-color: #C19A3F;
+                    border: 2px solid #fff;
+                    width:60px;
+                    height:60px;
+                    transform: rotate(-20deg);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .cajaFucsia{
+                    width: 45px;
+                    height: 45px;
+                    background-color: #EB336A;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2PX solid #fff;
+                    transform:rotate(-10deg);
+                }
+
+                 .doradoA{
+                    margin: 10px;
+                    background-color: #C19A3F;
+                    border: 2px solid #fff;
+                    width:60px;
+                    height:60px;
+                    transform: rotate(-20deg);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .cajaAzul{
+                    width: 45px;
+                    height: 45px;
+                    background-color: #0A8BC6;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2PX solid #fff;
+                    transform:rotate(30deg);
+                }
+
+                .doradoN{
+                    margin: 10px;
+                    background-color: #C19A3F;
+                    border: 2px solid #fff;
+                    width:60px;
+                    height:60px;
+                    transform: rotate(-40deg);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .cajaNaranja{
+                    width: 45px;
+                    height: 45px;
+                    background-color: #F19301;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2PX solid #fff;
+                    transform:rotate(25deg);
+                }  
+                .doradoAC{
+                    margin: 10px;
+                    background-color: #C19A3F;
+                    border: 2px solid #fff;
+                    width:60px;
+                    height:60px;
+                    transform: rotate(-60deg);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }                    
+                .cajaAzulCurioso{
+                    width: 45px;
+                    height: 45px;
+                    background-color: #04A3AE;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2PX solid #fff;
+                    transform:rotate(60deg);
+                }  
+                .doradoR{
+                    margin: 10px;
+                    background-color: #C19A3F;
+                    border: 2px solid #fff;
+                    width:60px;
+                    height:60px;
+                    transform: rotate(-80deg);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }                                           
+                .cajaRoja{
+                    width: 45px;
+                    height: 45px;
+                    background-color: #fd0404;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2PX solid #fff;
+                    transform:rotate(99deg);    
+                } 
+.doradoB{
+                    margin: 5px;
+                    background-color: #C19A3F;
+                    border: 2px solid #fff;
+                    width:60px;
+                    height:60px;
+                    transform: rotate(-50deg);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+}                                           
+.cajaB{
+                    width: 45px;
+                    height: 45px;
+                    background-color: rgb(68, 68, 155);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2PX solid #fff;
+                    transform:rotate(50deg);    
+}   
+.cajaVerde:hover,.cajaFucsia:hover,.cajaAzul:hover,.cajaNaranja:hover,.cajaAzulCurioso:hover,
+.cajaRoja:hover, .cajaB:hover{
+    transform: rotate(10deg);
+    transition: 0.5s;
+}  
+.doradoV:hover,.doradoVi:hover,.doradoA:hover,.doradoN:hover,.doradoAC:hover,
+.doradoR:hover, .doradoB:hover{
+    transform: rotate(-20deg);                   
+} 
+.formulario{
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 800px;
+    /* color: #e0c3fc; */
+    /* background-color: #fff; */
+  box-shadow: 0 0 1rem 0 rgba(248, 3, 138, 0.479); 
+  border-radius: 10px;
+  position: relative;
+  background: inherit;
+  overflow: hidden;
+}
+ 
+.formulario:before {
+    background: inherit;
+}
+p{
+     font-size: 17px;
+    letter-spacing: 2.5px;
+}
+ .imagenes img{
+      border-radius: 10px; 
+      width: 400px;
+      height: 300px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1)
+
+ }
+ img{
+     width: 100%;
+ }
+select{
+    width: 260px;
+    color: #000;
+    border-radius: 45px;
+    border: none;
+    padding: 1.3em 3em;
+    font-size: 14px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin: 3px;
+}
+input{
+    color: #000;
+    border-radius: 45px;
+    border: none;
+    padding: 1.3em 3em;
+    font-size: 14px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin: 3px;
+}
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+input:hover,button:hover,select:hover {
+
+ box-shadow: 0px 15px 20px rgba(248, 3, 138, 0.479);
+
+ transform: translateY(-7px);
+}
+
+button:active {
+ transform: translateY(-1px);
+}
+
+
+
+
