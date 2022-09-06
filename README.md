@@ -2,7 +2,7 @@
 ## Trivial 100% funcional
 
 ### Captura de pantalla inicio ###
-![Captura de inicio](trivial\assets\img\Screenshot1.png)
+![Captura de inicio](https://github.com/zergiales/trivial/assets/img/Screenshot1.png)
 
 ### Captura de pantalla de edicion de preguntas ###
 ![Captura de inicio](trivial\assets\img\Screenshot2.png)
