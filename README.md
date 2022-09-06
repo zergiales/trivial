@@ -1,4 +1,14 @@
 # Trivial
 ## Trivial 100% funcional
-![Captura de inicio](/assets/img/electrocat.png)
 
+### Captura de pantalla inicio ###
+![Captura de inicio](assets\img\Screenshot1.png)
+
+### Captura de pantalla de edicion de preguntas ###
+![Captura de inicio](assets\img\Screenshot2.png)
+
+### Captura de pantalla de logueo de usuario ###
+![Captura de inicio](assets\img\Screenshot3.png)
+
+### Captura de pantalla de juego ###
+![Captura de inicio](assets\img\Screenshot4.png)
